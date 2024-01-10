@@ -21,13 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+    const str = `〔 𝗕𝗼𝘁 𝗣𝗮𝗶𝘀𝗮 〕
 
 *╭━〔 OPTIMUS INFO 〕━⬣*
- ┃👤 Creador : Cristhofer
- ┃📱 Numero ; +51 937 305 486
+ ┃👤 Creador : Paisa
+ ┃📱 Numero ; +54 9 11 3111-3583
  ┃🤑 Adquirir : +51 937 305 486
- ┃👻 Ig : https://www.instagram.com/fantasmin.ventas.bot/
+ ┃👻 Ig : https://www.instagram.com/optimus.ventas.bot/
  ┃🤗 User : ${taguser}
  ${readMore}
 *╰━━━━━━━━━━━━⬣*
