@@ -1542,7 +1542,7 @@ global.dfail = (type, m, conn) => {
     restrict: '𝗟𝗼 𝗦𝗶𝗲𝗻𝘁𝗼 𝗘𝗹 𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗡𝗼 𝗘𝘀𝘁𝗮 𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼  ღ',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', body: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', thumbnail: imagen1, sourceUrl: 'https://instagram.com/spider.ventas.bot'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝗣𝗮𝗶𝘀𝗮', body: '𝗣𝗮𝗶𝘀𝗮', thumbnail: imagen1, sourceUrl: 'https://instagram.com/optimus.ventas.bot'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
